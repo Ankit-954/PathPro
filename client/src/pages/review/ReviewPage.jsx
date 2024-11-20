@@ -13,7 +13,7 @@ const ReviewPage = () => {
       const newReview = { name, comment, rating };
 
       try {
-        const response = await fetch("http://localhost:5000/api/reviews", {
+        const response = await fetch(`${server}/api/reviews`, {
           method: "POST",
           headers: {
             "Content-Type": "application/json",
