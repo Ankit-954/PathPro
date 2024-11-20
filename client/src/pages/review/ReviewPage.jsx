@@ -13,7 +13,7 @@ const ReviewPage = () => {
       const newReview = { name, comment, rating };
 
       try {
-        const response = await fetch(`${server}/api/reviews`, {
+        const response = await fetch("https://pathpro-server.onrender.com/api/reviews", {
           method: "POST",
           headers: {
             "Content-Type": "application/json",
