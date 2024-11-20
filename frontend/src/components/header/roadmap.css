@@ -1,0 +1,42 @@
+/* Ensures the page container takes the full height of the viewport */
+.page-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Full height of the viewport */
+  }
+  
+  /* Content grows to fill space and push footer to the bottom */
+  .content {
+    flex: 1; /* This allows content to take up remaining space */
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Styling for the error message */
+  .error-message {
+    color: red;
+    font-size: 18px;
+    margin-top: 20px;
+  }
+  
+  /* Footer styles */
+  footer {
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 14px;
+    color: #666;
+    border-top: 1px solid #ddd;
+  }
+  
+  .social-links a {
+    font-size: 24px;
+    margin: 0 10px;
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .social-links a:hover {
+    color: #8a4baf; /* Social icons color on hover */
+  }
+  

@@ -1,0 +1,1049 @@
+{
+  "Fullstack": {
+    "stages": [
+      {
+        "stage": "Foundational Knowledge",
+        "skills": [
+          "How the Web Works (HTTP, HTTPS, Client-Server Architecture)",
+          "Programming Fundamentals (JavaScript, Python, or C++)",
+          "Version Control (Git/GitHub)"
+        ],
+        "tools": ["Visual Studio Code", "Git/GitHub"]
+      },
+      {
+        "stage": "Frontend Development",
+        "skills": [
+          "HTML (Semantic HTML, Forms, Tables, Media)",
+          "CSS (Flexbox, Grid, Responsive Design, Preprocessors)",
+          "JavaScript (ES6+, DOM Manipulation, Events, Fetch API)",
+          "Frontend Frameworks (React.js)"
+        ],
+        "tools": ["Bootstrap", "TailwindCSS", "Material-UI"],
+        "projects": ["Personal Portfolio Website", "Weather App"]
+      },
+      {
+        "stage": "Backend Development",
+        "skills": [
+          "Node.js with Express.js",
+          "Databases (SQL: MySQL/PostgreSQL, NoSQL: MongoDB)",
+          "Authentication (JWT, OAuth, Session-based Auth)",
+          "RESTful APIs (CRUD, Middleware, Routing)"
+        ],
+        "tools": ["Postman", "Insomnia"],
+        "projects": ["Blog Application", "API for a Food Ordering App"]
+      },
+      {
+        "stage": "Full Stack Development",
+        "skills": [
+          "Frontend-Backend Integration",
+          "State Management (Context API, Redux)",
+          "Authentication Workflow (Login/Signup, Role-based Auth)",
+          "Deployment (Vercel, Netlify, AWS, Heroku)"
+        ],
+        "tools": ["Jest", "Mocha", "Chai", "Supertest"],
+        "projects": ["E-commerce Platform", "Social Media Application"]
+      },
+      {
+        "stage": "Advanced Concepts",
+        "skills": [
+          "Frontend Advanced (Code Splitting, Lazy Loading, PWA)",
+          "Backend Advanced (Caching, Message Queues, GraphQL APIs)",
+          "Performance Optimization (Load Balancing, Monitoring)",
+          "DevOps Basics (Docker, Kubernetes, CI/CD pipelines)",
+          "Security (OWASP, XSS/CSRF Prevention)"
+        ],
+        "projects": ["Advanced Video Streaming App", "Real-time Chat Application"]
+      },
+      {
+        "stage": "Portfolio Building",
+        "skills": [
+          "Host projects on GitHub",
+          "Deploy applications to production",
+          "Create a professional portfolio website"
+        ],
+        "tools": ["GitHub Pages", "Vercel", "Netlify"]
+      },
+      {
+        "stage": "Soft Skills and Job Preparation",
+        "skills": [
+          "Soft Skills (Communication, Problem Solving, Collaboration)",
+          "Job Preparation (DSA, System Design, Mock Interviews)"
+        ],
+        "tools": ["LeetCode", "HackerRank", "Pramp"]
+      }
+    ]
+  },
+  "DataScience": {
+    "stages": [
+      {
+        "stage": "Foundational Knowledge",
+        "skills": [
+          "Mathematics and Statistics: Probability, Descriptive & Inferential Statistics, Linear Algebra, Calculus",
+          "Programming Fundamentals: Python or R, Data Structures, Algorithms",
+          "Data Manipulation: Using libraries like NumPy and Pandas",
+          "Version Control: Git and GitHub"
+        ],
+        "tools": [
+          "Python (Jupyter Notebooks, Anaconda)",
+          "R (RStudio, R Notebooks)",
+          "Git/GitHub",
+          "VS Code or Jupyter Notebook"
+        ],
+        "projects": [
+          "Simple data manipulation with Pandas or R",
+          "Explore a public dataset and summarize it (e.g., COVID-19, Titanic dataset)"
+        ]
+      },
+      {
+        "stage": "Data Wrangling and Preprocessing",
+        "skills": [
+          "Data Cleaning: Handling missing values, outliers, and duplicates",
+          "Data Transformation: Normalization, standardization, encoding categorical variables",
+          "Exploratory Data Analysis (EDA): Using visualizations to understand data distribution",
+          "Feature Engineering: Creating new features from existing ones"
+        ],
+        "tools": [
+          "Pandas",
+          "NumPy",
+          "Matplotlib",
+          "Seaborn",
+          "Scikit-learn (preprocessing functions)"
+        ],
+        "projects": [
+          "Clean and preprocess a messy real-world dataset",
+          "Perform EDA on a dataset, including visualizations and summary statistics"
+        ]
+      },
+      {
+        "stage": "Machine Learning Fundamentals",
+        "skills": [
+          "Supervised Learning: Regression (Linear Regression), Classification (Logistic Regression, KNN, Decision Trees)",
+          "Unsupervised Learning: Clustering (K-means, DBSCAN), Dimensionality Reduction (PCA, t-SNE)",
+          "Model Evaluation: Train-test split, cross-validation, accuracy, precision, recall, F1-score, ROC-AUC",
+          "Bias-Variance tradeoff, Overfitting, Underfitting"
+        ],
+        "tools": [
+          "Scikit-learn",
+          "Matplotlib",
+          "Seaborn",
+          "TensorFlow (basic deep learning)"
+        ],
+        "projects": [
+          "Build a regression model (e.g., predicting house prices)",
+          "Build a classification model (e.g., predicting loan defaults)",
+          "Implement clustering on an unlabeled dataset (e.g., customer segmentation)"
+        ]
+      },
+      {
+        "stage": "Advanced Machine Learning and Deep Learning",
+        "skills": [
+          "Advanced Supervised Learning: Ensemble methods (Boosting, Bagging, XGBoost, LightGBM)",
+          "Deep Learning: Neural Networks, Convolutional Neural Networks (CNN), Recurrent Neural Networks (RNN)",
+          "Model Deployment: Flask/Django for APIs, Cloud Deployment (AWS, Google Cloud, Azure)"
+        ],
+        "tools": [
+          "TensorFlow",
+          "Keras",
+          "PyTorch",
+          "XGBoost",
+          "Flask",
+          "FastAPI"
+        ],
+        "projects": [
+          "Build and deploy a deep learning model (e.g., image classifier, sentiment analysis)",
+          "Implement an advanced regression or classification task (e.g., credit scoring)"
+        ]
+      },
+      {
+        "stage": "Data Science at Scale",
+        "skills": [
+          "Big Data Tools: Distributed computing (Apache Spark, Hadoop)",
+          "Data Pipelines: ETL processes",
+          "Data Storage and Retrieval: SQL and NoSQL databases",
+          "Performance Optimization: Model optimization, parallel computing"
+        ],
+        "tools": [
+          "Apache Spark",
+          "Hadoop",
+          "SQL",
+          "Dask",
+          "Databricks"
+        ],
+        "projects": [
+          "Process large-scale datasets with Apache Spark",
+          "Build and deploy a real-time recommendation system"
+        ]
+      },
+      {
+        "stage": "Specialization (Optional)",
+        "skills": [
+          "Natural Language Processing (NLP): Text preprocessing, classification, Named Entity Recognition (NER), Word embeddings",
+          "Computer Vision (CV): Image classification, object detection, image segmentation",
+          "Reinforcement Learning: Markov Decision Processes (MDP), Q-learning, Deep Q-Networks (DQN)"
+        ],
+        "tools": [
+          "NLTK",
+          "spaCy",
+          "Transformers",
+          "OpenCV",
+          "TensorFlow",
+          "PyTorch",
+          "Gym",
+          "Stable-Baselines"
+        ],
+        "projects": [
+          "Build an NLP model (e.g., sentiment analysis, chatbot)",
+          "Create a computer vision project (e.g., object detection, face recognition)",
+          "Implement a reinforcement learning agent for a game"
+        ]
+      },
+      {
+        "stage": "Portfolio Building",
+        "skills": [
+          "Project Documentation: Writing reports, creating GitHub repositories",
+          "Data Visualization: Designing interactive dashboards",
+          "Building a Professional Portfolio Website"
+        ],
+        "tools": [
+          "GitHub",
+          "Tableau",
+          "Power BI",
+          "Streamlit",
+          "Dash"
+        ],
+        "projects": [
+          "Compile a portfolio of completed projects",
+          "Write blog posts or tutorials on data science topics"
+        ]
+      },
+      {
+        "stage": "Soft Skills and Job Preparation",
+        "skills": [
+          "Soft Skills: Communication, problem-solving, teamwork",
+          "Job Preparation: Data Structures and Algorithms, system design, mock interviews"
+        ],
+        "tools": [
+          "LeetCode",
+          "HackerRank",
+          "InterviewBit",
+          "Pramp",
+          "Interviewing.io"
+        ],
+        "projects": [
+          "Conduct mock interviews for data science positions",
+          "Build a professional resume and LinkedIn profile"
+        ]
+      }
+    ]
+  },
+  "MachineLearning": {
+    "stages": [
+      {
+        "stage": "Foundational Knowledge",
+        "skills": [
+          "Mathematics for Machine Learning: Linear Algebra (Matrices, Vectors, Eigenvalues), Calculus (Derivatives, Gradients), Probability and Statistics (Distributions, Hypothesis Testing)",
+          "Programming Fundamentals: Python or R, Object-Oriented Programming, Data Structures (Lists, Tuples, Dictionaries, Arrays)",
+          "Version Control: Git, GitHub (branching, merging, pull requests)"
+        ],
+        "tools": [
+          "Python: Libraries (NumPy, Pandas, Matplotlib, Seaborn, SciPy)",
+          "R: Libraries (ggplot2, dplyr, caret)",
+          "Git, GitHub"
+        ],
+        "projects": [
+          "Data manipulation project using Pandas",
+          "Data visualization with Matplotlib/Seaborn",
+          "Basic regression model (e.g., predicting house prices)"
+        ]
+      },
+      {
+        "stage": "Machine Learning Fundamentals",
+        "skills": [
+          "Supervised Learning: Linear Regression, Logistic Regression, k-NN, Decision Trees, Random Forests, SVM",
+          "Unsupervised Learning: K-Means Clustering, PCA, Hierarchical Clustering",
+          "Model Evaluation: Cross-Validation, Confusion Matrix, Precision, Recall, F1-Score, ROC Curve"
+        ],
+        "tools": [
+          "Scikit-learn",
+          "Jupyter Notebooks",
+          "TensorFlow (basic)",
+          "Matplotlib"
+        ],
+        "projects": [
+          "Linear Regression for predicting continuous values",
+          "Logistic Regression for binary classification (e.g., customer churn)",
+          "K-Means clustering for customer segmentation"
+        ]
+      },
+      {
+        "stage": "Advanced Machine Learning",
+        "skills": [
+          "Ensemble Methods: Random Forests, Gradient Boosting (XGBoost, LightGBM)",
+          "Support Vector Machines (SVM) for classification",
+          "Neural Networks: Basic Neural Networks, Backpropagation",
+          "Hyperparameter Tuning: GridSearchCV, RandomizedSearchCV"
+        ],
+        "tools": [
+          "XGBoost, LightGBM, CatBoost",
+          "Keras",
+          "TensorFlow",
+          "Scikit-learn"
+        ],
+        "projects": [
+          "Classification with XGBoost (e.g., loan default prediction)",
+          "Neural network for image recognition (MNIST dataset)",
+          "Hyperparameter tuning for Random Forest model"
+        ]
+      },
+      {
+        "stage": "Deep Learning & Deployment",
+        "skills": [
+          "Deep Learning: CNNs (Convolutional Neural Networks), RNNs (Recurrent Neural Networks), LSTMs (Long Short-Term Memory)",
+          "Model Deployment: Flask for web app integration, Docker for containerization, AWS/GCP for cloud deployment",
+          "Transfer Learning for using pre-trained models"
+        ],
+        "tools": [
+          "Keras",
+          "TensorFlow",
+          "PyTorch",
+          "Flask",
+          "Docker",
+          "AWS/GCP"
+        ],
+        "projects": [
+          "Build a CNN for image classification (CIFAR-10)",
+          "Build a chatbot with LSTM",
+          "Deploy a machine learning model to AWS/GCP"
+        ]
+      }
+    ]
+  },
+  "CyberSecurity": {
+    "stages": [
+      {
+        "stage": "Foundational Knowledge",
+        "skills": [
+          "Computer Networks: OSI Model, TCP/IP Protocol, DNS, HTTP/HTTPS",
+          "Cryptography Basics: Symmetric & Asymmetric Encryption, Hash Functions",
+          "Operating Systems: Basics of Linux (shell commands, file permissions), Windows security"
+        ],
+        "tools": [
+          "Wireshark (Packet Sniffing)",
+          "Nmap (Network Mapping)",
+          "Netcat (Network Communication)"
+        ],
+        "projects": [
+          "Setup a basic firewall and explore traffic using Wireshark",
+          "Port scanning with Nmap"
+        ]
+      },
+      {
+        "stage": "Ethical Hacking & Penetration Testing",
+        "skills": [
+          "Penetration Testing Phases: Reconnaissance, Scanning, Exploitation",
+          "Common Vulnerabilities: XSS, SQL Injection, Buffer Overflow",
+          "OWASP Top 10 Security Risks"
+        ],
+        "tools": [
+          "Kali Linux",
+          "Metasploit",
+          "Burp Suite",
+          "OWASP ZAP"
+        ],
+        "projects": [
+          "Penetration test a local web application",
+          "Web application vulnerability scanning with OWASP ZAP"
+        ]
+      },
+      {
+        "stage": "Advanced Security Topics",
+        "skills": [
+          "Malware Analysis: Reverse Engineering, Static & Dynamic Analysis",
+          "Digital Forensics: Evidence Collection, File Carving, Chain of Custody",
+          "Network Defense: IDS/IPS, Firewalls, VPNs"
+        ],
+        "tools": [
+          "IDA Pro (Disassembler)",
+          "OllyDbg (Debugger)",
+          "Autopsy (Forensics Tool)",
+          "Splunk (SIEM)"
+        ],
+        "projects": [
+          "Malware analysis using IDA Pro",
+          "Forensic investigation using Autopsy"
+        ]
+      },
+      {
+        "stage": "Security Operations & Incident Response",
+        "skills": [
+          "Incident Response: Identification, Containment, Eradication",
+          "Threat Intelligence: OSINT (Open Source Intelligence), Threat Feed Analysis",
+          "Security Automation and Orchestration: SOAR, SIEM"
+        ],
+        "tools": [
+          "TheHive (Incident Response)",
+          "Cortex (Automation)",
+          "Elastic Stack (Security Monitoring)"
+        ],
+        "projects": [
+          "Set up and monitor security alerts with SIEM",
+          "Incident response simulation using TheHive"
+        ]
+      }
+    ]
+  },
+  "Blockchain": {
+    "stages": [
+      {
+        "stage": "Foundational Knowledge",
+        "skills": [
+          "Blockchain Fundamentals: Distributed Ledger, Hashing, Consensus Algorithms (Proof of Work, Proof of Stake)",
+          "Smart Contracts: Basics of Ethereum and Solidity",
+          "Public Key Infrastructure (PKI), Cryptographic Hash Functions, Digital Signatures"
+        ],
+        "tools": [
+          "Solidity",
+          "Ethereum",
+          "Truffle Suite",
+          "Ganache (Local Blockchain)"
+        ],
+        "projects": [
+          "Create a simple Ethereum contract",
+          "Deploy a basic token using the ERC-20 standard"
+        ]
+      },
+      {
+        "stage": "Blockchain Development",
+        "skills": [
+          "Ethereum Development: DApps (Decentralized Apps), Web3.js for interaction with contracts",
+          "Smart Contract Security: Gas Optimization, Vulnerability Detection (Reentrancy, Integer Overflow)",
+          "Blockchain Explorers and Networks (EtherScan, Polkadot)"
+        ],
+        "tools": [
+          "Web3.js",
+          "Truffle",
+          "Ganache",
+          "Infura (Remote Node)"
+        ],
+        "projects": [
+          "Build a Decentralized Application (DApp)",
+          "Create a decentralized exchange (DEX)"
+        ]
+      },
+      {
+        "stage": "Advanced Blockchain",
+        "skills": [
+          "Layer 2 Solutions: Lightning Network, Sidechains, Plasma",
+          "Blockchain Interoperability: Cross-Chain Transactions, Polkadot, Cosmos",
+          "Blockchain Security: Auditing, Smart Contract Vulnerability Scanning"
+        ],
+        "tools": [
+          "Polkadot",
+          "Cosmos SDK",
+          "ZK-Snarks (Zero Knowledge Proofs)"
+        ],
+        "projects": [
+          "Create a cross-chain bridge",
+          "Build a decentralized finance (DeFi) protocol"
+        ]
+      },
+      {
+        "stage": "Blockchain in Industry",
+        "skills": [
+          "Blockchain Applications: Supply Chain, Finance, Healthcare",
+          "NFTs (Non-Fungible Tokens) and Tokenization",
+          "Decentralized Finance (DeFi) Protocols"
+        ],
+        "tools": [
+          "Ethereum",
+          "Polygon",
+          "Solana"
+        ],
+        "projects": [
+          "Create an NFT marketplace",
+          "Build a decentralized lending platform"
+        ]
+      }
+    ]
+  },
+    "SoftwareTesting": {
+      "stages": [
+        {
+          "stage": "Foundational Knowledge",
+          "description": "Learn the basics of software testing, including different types of testing and manual testing techniques.",
+          "skills": [
+            "SDLC (Software Development Life Cycle)",
+            "Testing Types: Unit Testing, Integration Testing, System Testing, User Acceptance Testing (UAT)",
+            "Manual Testing: Test Case Writing, Test Execution, Bug Reporting"
+          ],
+          "tools": [
+            "Jira (Issue Tracking)",
+            "TestRail (Test Case Management)",
+            "Postman (API Testing)"
+          ],
+          "projects": [
+            "Manual testing of a small web app",
+            "Create and document test cases"
+          ]
+        },
+        {
+          "stage": "Automated Testing",
+          "description": "Learn to automate tests using various frameworks and tools, and understand the importance of performance testing.",
+          "skills": [
+            "Automated Testing Frameworks: Selenium WebDriver, TestNG, JUnit",
+            "API Testing: RESTful APIs using Postman, RestAssured",
+            "Performance Testing: Load Testing with JMeter"
+          ],
+          "tools": [
+            "Selenium WebDriver",
+            "TestNG",
+            "Postman",
+            "JMeter"
+          ],
+          "projects": [
+            "Automated Testing Framework",
+            "API Testing Suite",
+            "Performance Testing Setup"
+          ]
+        },
+        {
+          "stage": "Advanced Testing Techniques",
+          "description": "Explore advanced testing techniques including security testing, mobile testing, and continuous integration.",
+          "skills": [
+            "Security Testing: Penetration Testing, Vulnerability Scanning",
+            "Mobile Testing: Appium, Espresso",
+            "Continuous Integration: Jenkins, GitLab CI/CD"
+          ],
+          "tools": [
+            "OWASP ZAP (Security Testing)",
+            "Appium (Mobile Testing)",
+            "Jenkins (CI/CD)"
+          ],
+          "projects": [
+            "Security Testing of a Web Application",
+            "Automated Mobile App Testing",
+            "CI/CD Pipeline for Automated Testing"
+          ]
+        },
+        {
+          "stage": "Test Management and Reporting",
+          "description": "Learn to manage test cases, track defects, and generate comprehensive test reports.",
+          "skills": [
+            "Test Case Management",
+            "Defect Tracking",
+            "Test Reporting"
+          ],
+          "tools": [
+            "TestRail (Test Case Management)",
+            "Jira (Defect Tracking)",
+            "Allure (Test Reporting)"
+          ],
+          "projects": [
+            "Manage Test Cases for a Web Application",
+            "Track and Report Defects",
+            "Generate Test Reports"
+          ]
+        },
+        {
+          "stage": "Soft Skills and Job Preparation",
+          "description": "Develop essential soft skills and prepare for job interviews in the field of software testing.",
+          "skills": [
+            "Communication Skills",
+            "Problem-Solving Skills",
+            "Collaboration",
+            "Job Preparation: Resume Writing, Interview Techniques"
+          ],
+          "tools": [
+            "LinkedIn",
+            "LeetCode",
+            "HackerRank"
+          ],
+          "projects": [
+            "Create a Professional Resume",
+            "Mock Interviews",
+            "Build a LinkedIn Profile"
+          ]
+        }
+      ]
+    },
+      "ArtificialIntelligence": {
+        "stages": [
+          {
+            "stage": "Foundational Knowledge",
+            "skills": [
+              "Mathematics for AI: Linear Algebra, Probability, Optimization",
+              "Programming Fundamentals: Python, NumPy, Pandas",
+              "Basic Algorithms: Search Algorithms, Sorting Algorithms"
+            ],
+            "tools": ["Python", "Jupyter Notebooks", "NumPy", "Pandas"],
+            "projects": [
+              "Simple AI-based Tic-Tac-Toe game",
+              "Implement a basic search algorithm (e.g., A*)"
+            ]
+          },
+          {
+            "stage": "Core AI Concepts",
+            "skills": [
+              "Machine Learning Basics: Supervised and Unsupervised Learning",
+              "Deep Learning Foundations: Neural Networks",
+              "AI Ethics and Bias Awareness"
+            ],
+            "tools": ["TensorFlow", "Keras", "Scikit-learn"],
+            "projects": [
+              "Build a simple neural network for digit recognition",
+              "Create a classification model for email spam detection"
+            ]
+          },
+          {
+            "stage": "Advanced AI Topics",
+            "skills": [
+              "Natural Language Processing: Tokenization, Embedding",
+              "Computer Vision: Image Classification, Object Detection",
+              "Reinforcement Learning: Q-Learning, Policy Gradients"
+            ],
+            "tools": ["PyTorch", "OpenCV", "Hugging Face Transformers"],
+            "projects": [
+              "Create a chatbot using NLP",
+              "Implement an AI agent to solve a maze using reinforcement learning"
+            ]
+          }
+        ]
+      },
+      "DevOps": {
+        "stages": [
+          {
+            "stage": "Foundational Knowledge",
+            "skills": [
+              "Linux Basics: Command Line, Shell Scripting",
+              "Networking Basics: DNS, TCP/IP, Load Balancing",
+              "Version Control: Git, GitHub"
+            ],
+            "tools": ["Linux", "Git", "GitHub"],
+            "projects": [
+              "Set up a local Git repository",
+              "Automate a simple Linux task using Bash scripting"
+            ]
+          },
+          {
+            "stage": "CI/CD and Automation",
+            "skills": [
+              "Continuous Integration: Jenkins, GitLab CI/CD",
+              "Containerization: Docker Basics",
+              "Infrastructure as Code: Ansible, Terraform"
+            ],
+            "tools": ["Jenkins", "Docker", "Ansible", "Terraform"],
+            "projects": [
+              "Create a CI/CD pipeline for a sample application",
+              "Automate server setup using Ansible"
+            ]
+          },
+          {
+            "stage": "Cloud and Monitoring",
+            "skills": [
+              "Cloud Providers: AWS, Azure, GCP Basics",
+              "Monitoring and Logging: Prometheus, Grafana",
+              "Kubernetes: Deploy and Manage Containers"
+            ],
+            "tools": ["AWS", "Kubernetes", "Prometheus", "Grafana"],
+            "projects": [
+              "Deploy a Dockerized app to AWS",
+              "Set up monitoring for an application using Prometheus"
+            ]
+          }
+        ]
+      },
+      "CloudComputing": {
+        "stages": [
+          {
+            "stage": "Foundational Knowledge",
+            "skills": [
+              "Cloud Basics: IaaS, PaaS, SaaS",
+              "Virtualization: Virtual Machines, Containers",
+              "Networking Basics: Load Balancing, Firewalls"
+            ],
+            "tools": ["AWS Free Tier", "GCP", "Azure"],
+            "projects": [
+              "Launch a virtual machine on AWS",
+              "Set up a basic storage bucket on GCP"
+            ]
+          },
+          {
+            "stage": "Core Cloud Services",
+            "skills": [
+              "Compute: EC2, Lambda Functions",
+              "Storage: S3, Cloud Storage",
+              "Databases: RDS, Cloud SQL"
+            ],
+            "tools": ["AWS Lambda", "Azure Blob Storage", "Google Cloud SQL"],
+            "projects": [
+              "Build a serverless app using AWS Lambda",
+              "Host a static website using S3"
+            ]
+          },
+          {
+            "stage": "Advanced Cloud Concepts",
+            "skills": [
+              "DevOps in Cloud: CI/CD, Monitoring",
+              "Cost Optimization: Budgeting, Scaling",
+              "Cloud Security: Identity and Access Management (IAM)"
+            ],
+            "tools": ["CloudFormation", "Terraform", "CloudWatch"],
+            "projects": [
+              "Automate infrastructure setup with CloudFormation",
+              "Implement IAM policies for secure access"
+            ]
+          }
+        ]
+      },
+      "GameDevelopment": {
+        "stages": [
+          {
+            "stage": "Foundational Knowledge",
+            "skills": [
+              "Game Design Basics: Mechanics, Dynamics, Aesthetics",
+              "Programming Fundamentals: C#, Unity Scripting",
+              "2D Game Development Basics"
+            ],
+            "tools": ["Unity", "Blender"],
+            "projects": [
+              "Create a simple 2D game like Pong",
+              "Implement basic player controls in Unity"
+            ]
+          },
+          {
+            "stage": "3D Game Development",
+            "skills": [
+              "3D Graphics: Meshes, Textures, Shaders",
+              "Physics Engines: Collisions, Rigid Bodies",
+              "Game Optimization Techniques"
+            ],
+            "tools": ["Unity 3D", "Unreal Engine"],
+            "projects": [
+              "Create a 3D platformer game",
+              "Add dynamic lighting and shadows to a 3D scene"
+            ]
+          },
+          {
+            "stage": "Advanced Game Development",
+            "skills": [
+              "AI in Games: Pathfinding, Decision Trees",
+              "Multiplayer Game Development: Networking, Matchmaking",
+              "Virtual Reality Game Design"
+            ],
+            "tools": ["Photon Networking", "Oculus SDK"],
+            "projects": [
+              "Build a multiplayer game prototype",
+              "Develop a VR experience for a simple game"
+            ]
+          }
+        ]
+      },
+      "ARVR": {
+        "stages": [
+          {
+            "stage": "Foundational Knowledge",
+            "skills": [
+              "Introduction to AR/VR: Concepts and Use Cases",
+              "Basic Graphics Programming: OpenGL, Unity",
+              "Introduction to Hardware: AR/VR Devices"
+            ],
+            "tools": ["Unity", "Vuforia", "ARKit", "ARCore"],
+            "projects": [
+              "Develop a simple AR app using Vuforia",
+              "Create a basic VR environment in Unity"
+            ]
+          },
+          {
+            "stage": "Advanced Development",
+            "skills": [
+              "ARCore/ARKit SDKs: Marker-based and Markerless Tracking",
+              "VR Development: Physics, Interactions",
+              "3D Modeling for AR/VR"
+            ],
+            "tools": ["Blender", "ARKit", "ARCore"],
+            "projects": [
+              "Create an AR business card",
+              "Build a VR scene with interactive objects"
+            ]
+          },
+          {
+            "stage": "Real-World Applications",
+            "skills": [
+              "AR in Retail: Product Visualization",
+              "VR in Healthcare: Simulations",
+              "AR/VR Optimization: Performance, Scalability"
+            ],
+            "tools": ["Unity", "Oculus SDK"],
+            "projects": [
+              "Develop an AR visualization for furniture",
+              "Build a VR medical training simulation"
+            ]
+          }
+        ]
+      },
+      "MobileAppDevelopment": {
+        "stages": [
+          {
+            "stage": "Foundational Knowledge",
+            "skills": [
+              "Mobile App Basics: Native vs Cross-platform",
+              "UI Design Principles for Mobile",
+              "Programming: Kotlin for Android, Swift for iOS"
+            ],
+            "tools": ["Android Studio", "Xcode"],
+            "projects": [
+              "Create a simple weather app for Android",
+              "Build a to-do list app for iOS"
+            ]
+          },
+          {
+            "stage": "Cross-Platform Development",
+            "skills": [
+              "Frameworks: React Native, Flutter",
+              "State Management: Redux, Provider",
+              "APIs for Mobile: Fetch, Axios"
+            ],
+            "tools": ["React Native", "Flutter"],
+            "projects": [
+              "Develop a cross-platform app with React Native",
+              "Build a chat app using Flutter"
+            ]
+          },
+          {
+            "stage": "Advanced Mobile Development",
+            "skills": [
+              "Push Notifications and Background Services",
+              "Database Integration: SQLite, Firebase",
+              "App Store Optimization (ASO)"
+            ],
+            "tools": ["Firebase", "SQLite", "OneSignal"],
+            "projects": [
+              "Integrate push notifications in an app",
+              "Create a mobile app with offline storage"
+            ]
+          }
+        ]
+      },
+        "UIUXDesign": {
+          "stages": [
+            {
+              "stage": "Foundational Knowledge",
+              "description": "Learn the basic principles of UI/UX design, including design principles, wireframing, and prototyping.",
+              "skills": [
+                "Design Principles: Alignment, Contrast, Proximity, Repetition",
+                "Wireframing: Low-fidelity sketches",
+                "Prototyping: Interactive design basics"
+              ],
+              "tools": ["Figma", "Adobe XD", "Sketch"],
+              "projects": [
+                "Design a low-fidelity wireframe for a mobile app",
+                "Create an interactive prototype for a web application"
+              ]
+            },
+            {
+              "stage": "Advanced UI/UX Design",
+              "description": "Dive deeper into UI/UX design with advanced techniques such as user research, usability testing, and high-fidelity prototyping.",
+              "skills": [
+                "User Research: Surveys, Interviews",
+                "Usability Testing: Conducting and Analyzing Tests",
+                "Advanced Prototyping: High-fidelity designs"
+              ],
+              "tools": ["InVision", "Marvel", "Axure"],
+              "projects": [
+                "Conduct user research for a new app",
+                "Perform usability testing on an existing app",
+                "Create a high-fidelity prototype for a complex application"
+              ]
+            },
+            {
+              "stage": "UI/UX in Practice",
+              "description": "Apply UI/UX design principles in real-world scenarios, focusing on design systems, accessibility, and collaboration with developers.",
+              "skills": [
+                "Design Systems: Creating and Maintaining",
+                "Accessibility: Designing for All Users",
+                "Collaboration: Working with Developers"
+              ],
+              "tools": ["Storybook", "Zeplin", "Contrast"],
+              "projects": [
+                "Develop a design system for a product",
+                "Ensure accessibility compliance for a web app",
+                "Collaborate with developers to implement a design"
+              ]
+            }
+          ]
+        },
+          "IoT": {
+            "stages": [
+              {
+                "stage": "Foundational Knowledge",
+                "skills": [
+                  "Understand IoT architecture: how devices, gateways, and cloud systems interact",
+                  "Learn basic electronics: sensors, actuators, and microcontrollers",
+                  "Introduction to programming for IoT devices: Start with Arduino and Python"
+                ],
+                "tools": [
+                  "Arduino IDE: Platform to write code for Arduino microcontrollers",
+                  "Raspberry Pi: A small, affordable computer to create IoT projects",
+                  "Node-RED: A flow-based programming tool for wiring together hardware devices"
+                ],
+                "projects": [
+                  "Create a simple weather station using temperature and humidity sensors connected to Arduino",
+                  "Control an LED light via your smartphone using Wi-Fi or Bluetooth"
+                ],
+                "description": "This foundational stage introduces you to the basics of IoT systems, including how devices communicate with each other and the cloud, and gives you hands-on experience with simple programming and hardware."
+              },
+              {
+                "stage": "Intermediate IoT Systems",
+                "skills": [
+                  "Learn about wireless communication protocols like MQTT, Zigbee, and Bluetooth Low Energy",
+                  "Explore how IoT devices connect to the cloud for real-time data collection and monitoring (e.g., ThingSpeak, Blynk)",
+                  "Understand security measures for IoT, such as data encryption and device authentication"
+                ],
+                "tools": [
+                  "ThingSpeak: An IoT analytics platform for visualizing and analyzing sensor data",
+                  "Blynk: A mobile app to control IoT devices via smartphones",
+                  "MQTT: A lightweight messaging protocol for small sensors and mobile devices"
+                ],
+                "projects": [
+                  "Set up a smart home automation system where IoT devices can be controlled remotely via a smartphone",
+                  "Build a temperature monitoring system that sends data to the cloud and displays it in real-time"
+                ],
+                "description": "At this stage, you will deepen your understanding of IoT by learning how to connect devices wirelessly, integrate IoT systems with the cloud, and ensure security in IoT communications."
+              },
+              {
+                "stage": "Advanced IoT",
+                "skills": [
+                  "Master edge computing, where data is processed locally on the device before being sent to the cloud for faster decision-making",
+                  "Integrate Artificial Intelligence (AI) into IoT systems for predictive maintenance or anomaly detection",
+                  "Focus on advanced IoT security measures like secure booting and encrypted data transmission"
+                ],
+                "tools": [
+                  "EdgeX Foundry: A platform for building IoT edge computing applications",
+                  "TensorFlow Lite for Edge: A version of TensorFlow optimized for running machine learning models on IoT devices",
+                  "Kubernetes: A tool for automating deployment, scaling, and managing containerized applications, useful in large IoT deployments"
+                ],
+                "projects": [
+                  "Create an AI-powered IoT system that predicts when a machine needs maintenance based on sensor data",
+                  "Build a smart device that processes data locally (edge computing) to improve response times and reduce cloud dependency"
+                ],
+                "description": "The advanced stage of IoT introduces cutting-edge technologies like edge computing and AI integration. You'll learn how to build more complex, intelligent systems that can make decisions on their own, while ensuring robust security."
+              }
+            ]
+          },
+          "DatabaseAdministration": {
+            "stages": [
+              {
+                "stage": "Foundational Knowledge",
+                "skills": [
+                  "Understand the difference between relational and non-relational databases",
+                  "Learn SQL basics: querying databases, filtering data, joining tables, and updating records",
+                  "Get comfortable with database normalization and the creation of Entity-Relationship (ER) diagrams"
+                ],
+                "tools": [
+                  "MySQL: A popular relational database management system",
+                  "SQLite: A lightweight database engine used in mobile and desktop apps",
+                  "PostgreSQL: A powerful, open-source relational database system"
+                ],
+                "projects": [
+                  "Design a simple database for managing a small library or inventory system",
+                  "Write basic SQL queries to select, filter, and update data in a database"
+                ],
+                "description": "The foundational stage covers the basics of database management, including understanding database types, SQL syntax, and how to design and interact with databases using SQL."
+              },
+              {
+                "stage": "Intermediate Database Admin",
+                "skills": [
+                  "Learn about database optimization techniques: indexes, query plans, and caching to speed up data retrieval",
+                  "Implement backup and recovery procedures to protect data and restore it in case of failure",
+                  "Understand database security, including user management, permissions, and securing sensitive data"
+                ],
+                "tools": [
+                  "MySQL Workbench: A tool for designing and managing MySQL databases",
+                  "pgAdmin: A tool for managing PostgreSQL databases",
+                  "MongoDB: A non-relational database used for handling large-scale, unstructured data"
+                ],
+                "projects": [
+                  "Optimize a database by indexing frequently queried columns and writing efficient queries",
+                  "Set up automated backup schedules for a database to ensure data protection"
+                ],
+                "description": "In this stage, you'll gain intermediate skills in optimizing databases for better performance, implementing security measures, and setting up reliable data backup systems."
+              },
+              {
+                "stage": "Advanced Database Administration",
+                "skills": [
+                  "Learn about database replication to create redundant copies of your database for high availability",
+                  "Explore database clustering for scaling and improving performance across multiple servers",
+                  "Master advanced techniques for database tuning and scaling as data grows"
+                ],
+                "tools": [
+                  "MariaDB: A community-developed fork of MySQL that provides enhanced performance and features",
+                  "Cassandra: A NoSQL database designed for handling large amounts of data across many commodity servers",
+                  "Oracle Database: A widely used enterprise-level database with advanced capabilities for large systems"
+                ],
+                "projects": [
+                  "Implement a database replication system for high availability and disaster recovery",
+                  "Design a large-scale database architecture with sharding for better performance"
+                ],
+                "description": "At the advanced stage, you’ll tackle complex database administration tasks such as setting up database replication, clustering for scalability, and performance tuning to handle growing datasets."
+              }
+            ]
+          },
+          "Robotics": {
+            "stages": [
+              {
+                "stage": "Foundational Knowledge",
+                "skills": [
+                  "Learn the basics of robotics: how robots move, sense their environment, and perform tasks",
+                  "Get started with programming robots using languages like C++ or Python",
+                  "Understand how sensors (e.g., cameras, touch sensors) and actuators (e.g., motors) work"
+                ],
+                "tools": [
+                  "Arduino: A microcontroller used to control robots and sensors",
+                  "ROS (Robot Operating System): A flexible framework for writing robot software",
+                  "MATLAB: A tool for modeling and simulating robot movements"
+                ],
+                "projects": [
+                  "Build a simple robotic arm that moves in a controlled manner",
+                  "Program a robot to follow a line using sensors"
+                ],
+                "description": "This stage introduces the fundamental concepts of robotics, such as how robots move, interact with their surroundings, and are programmed to perform tasks."
+              },
+              {
+                "stage": "Intermediate Robotics",
+                "skills": [
+                  "Explore robot perception using sensors like cameras and LIDAR for better environment understanding",
+                  "Learn about motion planning and pathfinding algorithms for robot navigation",
+                  "Understand how to design and implement feedback control systems (e.g., PID controllers)"
+                ],
+                "tools": [
+                  "OpenCV: A library for real-time computer vision applications",
+                  "LIDAR: Light detection and ranging technology for 3D environment mapping",
+                  "ROS: To control complex robotic systems and integrate perception and motion planning"
+                ],
+                "projects": [
+                  "Create a robot that can detect and avoid obstacles using sensors",
+                  "Build a navigation system that lets a robot move autonomously to specific locations"
+                ],
+                "description": "The intermediate stage delves into how robots perceive their environment using sensors and how they plan movements to achieve specific tasks, such as avoiding obstacles and reaching targets."
+              },
+              {
+                "stage": "Advanced Robotics",
+                "skills": [
+                  "Explore autonomous robotics: robots that can perform tasks without human intervention using machine learning and AI",
+                  "Learn about Simultaneous Localization and Mapping (SLAM) for mapping environments while navigating",
+                  "Understand the concept of multi-robot systems and swarming behavior"
+                ],
+                "tools": [
+                  "Gazebo: A robot simulation tool for testing and developing robotic systems in virtual environments",
+                  "V-REP (CoppeliaSim): A simulation platform for modeling and testing robots",
+                  "TensorFlow: A machine learning library to integrate AI into robotic systems"
+                ],
+                "projects": [
+                  "Build an autonomous robot that can navigate and map an environment using SLAM",
+                  "Simulate a swarm of robots working together to complete a task, such as delivering objects"
+                ],
+                "description": "At the advanced stage, you'll learn how to develop intelligent, autonomous robots that can make decisions on their own and collaborate with other robots for more complex tasks."
+              }
+            ]
+          }
+}

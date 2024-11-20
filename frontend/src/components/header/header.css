@@ -1,0 +1,76 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  font-size: 25px;
+  font-weight: 600;
+  color: #8a4baf;
+  margin-right: 20px; /* Space between logo and search box */
+}
+
+.logo a {
+  text-decoration: none;
+}
+
+.search-box {
+  display: flex;
+  align-items: center;
+  border: 2px solid black;
+  border-radius: 25px;
+  padding: 5px 10px;
+  margin: 0 15px; /* Add left and right margins to reduce width */
+  max-width: 600px; /* Set a max-width if you want to further restrict the width */
+  flex-grow: 1;
+  position: relative;
+}
+
+.search-box input {
+  width: 100%; /* Allow input to occupy full width within container */
+  padding: 7px 25px 7px 0;
+  border: none;
+  outline: none;
+  font-size: 16px;
+}
+
+.search-icon {
+  color: #8a4baf;
+  font-size: 18px;
+  margin-right: 10px;
+}
+
+.link {
+  display: flex;
+  gap: 2rem;
+}
+
+.link a {
+  text-decoration: none;
+  color: #333;
+  transition: 0.3s;
+}
+
+.link a:hover {
+  color: #8a4baf;
+}
+
+@media (max-width: 768px) {
+  .logo {
+    font-size: 18px;
+  }
+  .link {
+    gap: 0.5rem;
+  }
+  .search-box {
+    max-width: 180px; /* Adjust for smaller screens */
+    margin: 0 10px; /* Smaller margin on mobile */
+  }
+  .search-box input {
+    width: 100%;
+  }
+}
