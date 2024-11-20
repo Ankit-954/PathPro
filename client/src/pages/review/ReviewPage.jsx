@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./ReviewPage.css";
+import "./reviewPage.css";
 
 const ReviewPage = () => {
   const [reviews, setReviews] = useState([]); // State to store reviews
